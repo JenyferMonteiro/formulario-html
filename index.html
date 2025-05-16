@@ -11,14 +11,40 @@
 
     <form action="#" method="post" onsubmit="alert('form enviado!');">
         <label>Nome*:</label>
-        <input type="text" name="nome" required/>
-
-        <input type="text" />
+        <input type="text" name="nome" required />
         <br>
         <label>Senha:</label>
-        <input type="password" />
+        <input type="password" name="Senha" required />
         <br>
+        <label for="idade">idade</label>
+        <input type="number" name="idade" min="1" max="100" step="10" />
+        <br>
+        <input type="email" name="email" placeholder="digite seu email" />
+        <br>
+        <input type="date" name="data nasc" />
+        <br>
+        <input type="file" name="arquivo" />
+        <br>
+        <input type="checkbox" name="time[]" value="cru" />
+        <label style="color: blue;">cruzeiro</label>
+        <br>
+        <input type="checkbox" name="time" value="fla" />
+        <label>flamengo</label>
+        <br>
+        <input type="checkbox" name="time" value="vas">
+        <label>vasco</label>
+        <br>
+        <label>selecione sua nacionalidade</label>
+        <br>
+        <input type="radio" value="brasil">
+        <label>brasil</label>
+        <input type="radio" value="arg">
+        <label>argentina</label>
+        <input type="radio" value="parg">
+        <label>paraguai</label>
+
         <button type="submit">enviar</button>
+
     </form>
 
 </body>
