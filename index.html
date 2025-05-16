@@ -36,13 +36,28 @@
         <br>
         <label>selecione sua nacionalidade</label>
         <br>
-        <input type="radio" value="brasil">
+        <input type="radio" name="nacionalidade" value="brasil">
         <label>brasil</label>
-        <input type="radio" value="arg">
+        <input type="radio" name="nacionalidade" value="arg">
         <label>argentina</label>
-        <input type="radio" value="parg">
+        <input type="radio" name="nacionalidade" value="parg">
         <label>paraguai</label>
+        <br>
 
+        <label>estado</label>
+        <select>
+            <option value="x">selecione</option>
+            <option value="mg" selected>minas gerais</option>
+            <option value="go">goias</option>
+            <option value="sp">sao paulo</option>
+        </select>
+        <br>
+        <label>observacao</label>
+        <textarea name="obs" rows="10" cols="20">texto longo</textarea>
+
+
+
+        <br>
         <button type="submit">enviar</button>
 
     </form>
